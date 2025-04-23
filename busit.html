@@ -14,57 +14,110 @@
 </header>
 
 <main>
-    <section class="activity">
-        <div class="media-section">
-            <video src="videos/ROS_robot.webm" controls></video>
-            <div class="media-text">
-                <h3>ROS wagen</h3>
-                <p>
-                    In deze video ziet u hoe het wagentje met behulp van computer vision obstakels detecteert en hierop
-                    reageert.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="activity">
-        <div class="media-section">
-            <a href="images/track_screenshot.png" target="_blank">
-                <img src="images/track_screenshot.png" alt="track_screenshot.png">
-            </a>
-            <div class="media-text">
-                <h3>Screenshot van de track</h3>
-                <p>Dit is een screenshot van het circuit dat het wagentje aflegt.</p>
-            </div>
-        </div>
-    </section>
-    <section class="activity">
-        <div class="media-section">
-            <a href="images/ocean_mapper.png" target="_blank">
-                <img src="images/ocean_mapper.png" alt="ocean_mapper.png">
-            </a>
-            <div class="media-text">
-                <h3>Afbeelding van de Ocean Mapper</h3>
-                <p>Dit is een afbeelding van de Ocean Mapper die we tijdens de BusIT week hadden ontworpen.</p>
-            </div>
-        </div>
-    </section>
-    <section class="activity">
-        <div class="media-section">
-            <a href="images/computer_vision.png" target="_blank">
-                <img src="images/computer_vision.png" alt="computer_vision.png">
-            </a>
-            <div class="media-text">
-                <h3>Het perspectief van de wagen</h3>
-                <p>Dit is een screenshot vanaf het perspectief van de wagen. De wagen herkent het verschil tussen het
-                    circuit en de obstakels.</p>
-            </div>
-        </div>
-    </section>
+    <section class="activity full-text">
+        <div class="text-content">
+            <h2 style="text-align: center;">Bus-IT week</h2>
 
+            <p>Als internationalisering heb ik gekozen voor een Bus-IT week aan Hogeschool PXL namelijk de “Bridging
+                vision en Robotics” week. Tijdens deze week werd er lesgegeven over het Robot Operating System (ROS).
+                Hiermee kunnen robots zoals kleine wagens of andere voertuigen gesimuleerd worden voor
+                onderzoeksdoeleinden.</p>
+
+            <p>Tijdens de Bus-IT week werkte ik samen met drie andere studenten aan experimenten met deze technologie.
+                De eerste twee dagen bestonden voornamelijk uit theoretische lessen over ROS, computer vision en
+                Internet of Things. Deze werden gegeven door Tim Dupont en Ulrich Norbisrath, een gastdocent uit
+                Duitsland. De lessen waren in het Engels, aangezien zowel Franstalige als Nederlandstalige studenten
+                deelnamen.</p>
+
+            <p>Na de theorie werden we ingedeeld in groepen. Mijn team bestond uit studenten van UCLL (Leuven), AP
+                (Antwerpen) en EPHEC (Brussel). Onze opdracht was het ontwerpen van een nieuwe technologie die via
+                computer vision een bijdrage kon leveren aan wetenschappelijk onderzoek.</p>
+
+            <div class="image-block">
+                <img src="images/ocean_mapper.png" alt="Ocean Mapper">
+                <p class="caption">Onze "Ocean Mapper" ontworpen tijdens de brainstormsessie</p>
+            </div>
+
+            <p>We bedachten de “ocean mapper”, een systeem dat met behulp van computer vision de zeebodem analyseert om
+                anomalieën te detecteren.</p>
+
+            <p>De laatste drie dagen gingen we praktisch aan de slag met ROS. We kregen de taak om een klein voertuig
+                autonoom over een circuit te laten rijden. Met behulp van computer vision kon het wagentje bochten en
+                obstakels herkennen en hierop reageren.</p>
+
+            <div class="image-block">
+                <video src="videos/ROS_robot.webm" controls></video>
+                <p class="caption">Het wagentje dat zelfstandig obstakels ontwijkt en het parcours volgt</p>
+            </div>
+
+            <p>Op de eerste praktische dag leerden we de benodigde Python syntax om de robot te programmeren. Tegen het
+                einde van de dag kon het voertuig al in een rechte lijn rijden, maar bochten vormden nog een
+                uitdaging.</p>
+
+            <p>Tijdens de tweede dag lag de focus op obstakeldetectie. Omdat het circuit uit verschillende kleuren bestond,
+                konden we de robot programmeren op basis van kleurherkenning. Donkere kleuren gaven aan dat het voertuig
+                moest afremmen of sturen.</p>
+
+            <div class="image-block">
+                <img src="images/track_screenshot.png" alt="Circuit track">
+                <p class="caption">Een screenshot van het circuit waarop de wagen getraind werd</p>
+            </div>
+
+            <p>Halverwege de tweede dag kon het voertuig zonder problemen het volledige parcours afleggen. We schakelden
+                toen over naar een tweede, moeilijker parcours met obstakels zoals kartonnen dozen en bakstenen.</p>
+
+            <p>Na enkele uren lukte het ons om het wagentje traag maar zeker het hele obstakelcircuit te laten afleggen
+                zonder aanrijdingen of afwijkingen.</p>
+
+            <div class="image-block">
+                <img src="images/computer_vision.png" alt="Perspectief van de wagen">
+                <p class="caption">Vanuit het perspectief van de wagen: obstakels en bochten worden herkend</p>
+            </div>
+
+            <p>De robot kon de obstakels herkennen aan het kleurverschil met de baan. Zo maakte hij duidelijk
+                onderscheid tussen randen, dozen en de rijstrook zelf. Op de laatste dag stelden we als groep onze
+                “Ocean Mapper” en de autonome wagen voor aan de rest van de deelnemers.</p>
+
+            <h2 style="text-align: center;">Reflectie over de BusIT week</h2>
+
+            <p>De kennismaking met mijn groepsgenoten tijdens de eerste dag verliep wat stroef aangezien we niet
+                allemaal dezelfde taal spraken en mekaar nog niet goed kenden. Eens we elkaar wat vraagden stelden over
+                onze gezamenlijke interesses en wat we tot nu toe vonden van de BusIT week konden we al wat beter
+                samenwerken als groep.</p>
+
+            <p>Ik heb me voornamelijk bezig gehouden met het programmeren van de wagen om ervoor te zorgen dat deze
+                succesvol over het circuit kon bewegen. Het begin van deze opdracht verliep wat moeilijk aangezien het
+                al even geleden was dat ik nog met python had gewerkt. Bovendien was de syntax die gebruikt werd
+                onbekend voor mij.</p>
+
+            <p>
+                Door voornamelijk online documentatie te bestuderen en met behulp van generatieve AI heb ik veel
+                voortgang kunnen maken en was ik meer bekend geworden met de programmeertaal. Overleggen met mijn
+                groepsgenoten en af en toe vragen stellen aan de docenten maakte het leerproces gemakkelijker.
+            </p>
+
+            <p>
+                Voor het meeste deel vond ik de Bus-IT week best interessant, zeker het samenwerken met studenten van
+                andere hogescholen om samen aan de computer vision opdracht te werken. Het brainstormen rond de “ocean
+                mapper” was minder tof omdat hier meer tijd voor was gegeven dan nodig was waardoor we als groep sneller
+                klaar waren en weinig te doen hadden.
+            </p>
+
+            <p>
+                De belangrijkste les die ik heb geleerd tijdens deze week is het samenwerken in een groep van
+                (inter)nationale studenten. Volledig Engels praten lukte zonder al te veel problemen en maakte
+                communicatie met mijn groepsgenoten makkelijker.
+            </p>
+
+            <p>
+                Samenwerken in (internationale) context, nieuwe concepten leren en in contact komen met technologieën
+                die volledig onbekend waren voor mij zijn de redenen waarom ik voor deze opdracht heb gekozen.
+            </p>
+
+        </div>
+    </section>
 </main>
 
-
 <script src="script.js"></script>
-
 </body>
 </html>
